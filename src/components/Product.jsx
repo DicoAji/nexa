@@ -5,6 +5,11 @@ import product1 from "./../../public/img/product1.png";
 import product2 from "./../../public/img/product2.png";
 import product3 from "./../../public/img/product3.png";
 import product4 from "./../../public/img/product4.png";
+import product1Hover from "./../../public/img/product1-hover.png";
+import product2Hover from "./../../public/img/product2-hover.png";
+import product3Hover from "./../../public/img/product3-hover.png";
+import product4Hover from "./../../public/img/product4-hover.png";
+
 import bread1 from "./../../public/img/bread1.png";
 import bread2 from "./../../public/img/bread2.png";
 import bread3 from "./../../public/img/bread3.png";
@@ -26,7 +31,12 @@ const imageMap = {
   "product2.png": product2,
   "product3.png": product3,
   "product4.png": product4,
+  "product1-hover.png": product1Hover,
+  "product2-hover.png": product2Hover,
+  "product3-hover.png": product3Hover,
+  "product4-hover.png": product4Hover,
 };
+
 const imageMapBread = {
   "bread1.png": bread1,
   "bread2.png": bread2,
@@ -64,7 +74,7 @@ const Product = () => {
 
   return (
     <>
-      <div className=" py-[60px]">
+      <div className="py-[60px]">
         <div className="flex justify-between max-w-7xl mx-auto">
           <h2 className="josefin-sans max-sm:text-center max-sm:w-fit max-sm:mx-auto text-[38px]">
             Our superior product
@@ -97,7 +107,7 @@ const Product = () => {
               <img
                 src={
                   hoveredProduct === index
-                    ? `/img/${product.imageHover}`
+                    ? imageMap[product.imageHover]
                     : imageMap[product.image]
                 }
                 className="w-full rounded-xl transition-transform duration-500 ease-in-out"
@@ -146,7 +156,7 @@ const Product = () => {
         <h2 className="josefin-sans text-[38px] font-medium mb-4 max-w-7xl mx-auto">
           Upcoming Baking Class & Demo
         </h2>
-        <div className="embla  md:max-w-[90%]  ml-auto" ref={emblaRef}>
+        <div className="embla md:max-w-[90%] ml-auto" ref={emblaRef}>
           <div className="embla__container flex">
             {dataBread.map((bread, index) => (
               <div
@@ -163,9 +173,9 @@ const Product = () => {
               </div>
             ))}
           </div>
-          <div className="max-w-7xl  mr-auto flex mt-[20px]">
-            <div className="sm:ml-auto mx-auto  flex space-x-[5px]">
-              <p className="text-end text-[18px] font-semibold text-gray-300 my-auto  h-fit">
+          <div className="max-w-7xl mr-auto flex mt-[20px]">
+            <div className="sm:ml-auto mx-auto flex space-x-[5px]">
+              <p className="text-end text-[18px] font-semibold text-gray-300 my-auto h-fit">
                 swipe product
               </p>
               <img src={swipeHand} className="w-[14px]" alt="" />
