@@ -1,0 +1,39 @@
+{
+  "data_bread": [
+    {
+      "name": "Content 1",
+      "image": "bread1.png",
+      "date": "14 Januari 2023"
+    },
+    {
+      "name": "Content 2",
+      "image": "bread2.png",
+      "date": "14 Januari 2023"
+    },
+    {
+      "name": "Content 3",
+      "image": "bread3.png",
+      "date": "14 Januari 2023"
+    },
+    {
+      "name": "Content 4",
+      "image": "bread4.png",
+      "date": "14 Januari 2023"
+    },
+    {
+      "name": "Content 5",
+      "image": "bread5.png",
+      "date": "14 Januari 2023"
+    },
+    {
+      "name": "Content 6",
+      "image": "bread6.png",
+      "date": "14 Januari 2023"
+    },
+    {
+      "name": "Content 7",
+      "image": "bread7.png",
+      "date": "14 Januari 2023"
+    }
+  ]
+}

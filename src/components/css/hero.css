@@ -1,0 +1,41 @@
+.bg-hero {
+  background-color: rgba(196, 206, 16, 0.5);
+  z-index: 10;
+}
+.carousel .slide {
+  text-align: start !important;
+}
+.react-multi-carousel-dot--active button {
+  background: white !important;
+}
+.react-multi-carousel-dot button {
+  width: 15px;
+  height: 15px;
+  border-color: black;
+  border-width: 1px;
+  margin-right: 10px;
+}
+.react-multiple-carousel__arrow {
+  background: none;
+}
+.react-multiple-carousel__arrow::before {
+  color: black;
+  font-size: 40px;
+}
+.react-multiple-carousel__arrow--left {
+  left: 0;
+  z-index: 0;
+}
+.react-multiple-carousel__arrow--left:hover {
+  background: none;
+}
+.react-multiple-carousel__arrow--right {
+  right: 0;
+  z-index: 0;
+}
+.react-multiple-carousel__arrow--right:hover {
+  background: none;
+}
+.react-multi-carousel-dot-list {
+  transform: translateY(-50%);
+}

@@ -1,0 +1,24 @@
+{
+  "data_product": [
+    {
+      "name": "Tepung Terigu Double Zero",
+      "image": "product1.png",
+      "imageHover": "product1-hover.png"
+    },
+    {
+      "name": "Tepung Terigu Double Zero",
+      "image": "product2.png",
+      "imageHover": "product2-hover.png"
+    },
+    {
+      "name": "Tepung Terigu Beruang Biru",
+      "image": "product3.png",
+      "imageHover": "product3-hover.png"
+    },
+    {
+      "name": "Tepung Terigu Yokozuna",
+      "image": "product4.png",
+      "imageHover": "product4-hover.png"
+    }
+  ]
+}
